@@ -13,5 +13,8 @@ public class stringtest{
 		if(s1.equal(s2)){
 		 System.out.println("not sure");
 		}
-	}
+        for (int i=0; i <args.length; i++) {
+	          system.out.println("arguments" + i + "value" +args[i])
+        } 
+   }
 }
