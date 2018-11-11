@@ -24,7 +24,7 @@ public class Student{
     //default contructor
     public 	Student(){
     	name =  "not set";
-    	rollno = 90;
+    	rollno = 100;
     }
     //parametrized constructor called
     public Student( String name, int rollno){
