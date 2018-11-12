@@ -1,25 +1,29 @@
 // File Test.java
-/* This class create Student class objects and demonstrates
- how to call various methods on objects
-*/
 public class Test{
-public static void main (String args[]){
-// Make two student obejcts 
+public static void main (String args[]){ int numObjs;
+// printing current number of objects i.e 0
+numObjs = Student.getCountStudents();
+System.out.println(“Students Objects” + numObjs);
+// Creating first student object & printing its values
 Student s1 = new Student("ali", 15);
-Student s2 = new Student(); //call to default costructor
-s1.print(); // display ali and 15
-System.out.println();
-s2.print(); // display not set and 90
-s2.setName("usman\n");
-s2.setRollno(20);
-//System.out.println("Student name:");	
-System.out.println("\nsetname :" +s2.getName());
-System.out.println("rollNo :" + s2.getRollno());
-System.out.println("calling copy constructor");
-Student s3 = new Student(s1); //call to copy constructor
- s2.print();
- s3.print();
- s3.setRollno(-10); //Roll No of s3 would be set to 100
- s3.print();
-}
+System.out.println(“Student: ” + s1.toString());
+// printing current number of objects i.e. 1
+numObjs = Student.getCountStudents();
+System.out.println(“Students Objects” + numObjs);
+// Creating second student object & printing its values
+Student s2 = new Student("usman", 49);
+// implicit call to toString() method
+System.out.println(“Student: ” + s2);
+// printing current number of objects i.e. 2
+numObjs = Student.getCountStudents();
+System.out.println(“Students Objects” + numObjs);
+// loosing object reference
+s1 = null;
+// requesting JVM to run Garbage collector but there is
+ // no guarantee that it will run
+System.gc();
+// printing current number of objects i.e. unpredictable
+numObjs = Student.getCountStudents();
+System.out.println(“Students Objects” + numObjs);
+} //end of main
 } //end of class 
