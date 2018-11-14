@@ -1,4 +1,4 @@
-class Test{
+class Check{
 public static void main (String args[]){
 System.out.println("making object of employee");
 Employee e = new Employee(89, "khurram ahmad");
