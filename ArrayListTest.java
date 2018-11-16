@@ -7,10 +7,14 @@ ArrayList < Student > al= new ArrayList<Student>();
 Student s1 = new Student ("ali" , 1);
 Student s2 = new Student ("saad" , 2);
 Student s3 = new Student ("raza" , 3);
+Student s4 = new Student ("Mehmood" , 4);
+Student s5 = new Student ("John" , 6);
 // adding elements (Student objects) into arralylist
 al.add(s1);
 al.add(s2);
 al.add(s3);
+al.add(s4);
+al.add(s5);
 // checking whether arraylist is empty or not Boolean
  b = al.isEmpty ();
 if (b == true) {
