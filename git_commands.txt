@@ -1,0 +1,43 @@
+ git status
+  144  git add .
+  145  git commit -am "remvoved extra files"
+  146  git push -u origin masster
+  147  git push -u origin mass=ter
+  148  git push -u origin master
+  149  ls
+  150  cd E:/
+  151  ls
+  152  cd Waqar/
+  153  ls
+  154  cd Java\ Code/
+  155  git init
+  156  gitstatus
+  157  git status
+  158  git comit -m "simple hello world app " ssd
+  159  git add HelloWorldApp.java
+  160  git commit -m "simple hello world app " HelloWorldApp.java5
+  161  git commit -m "simple hello world app " HelloWorldApp.java
+  162  git remote add origin https://github.com/thismehmood/JavaC.git
+  163  git remote add origin https://github.com/thismehmood/JavaC.git
+  164  git log
+  165  git -v
+  166  git --version
+  167  git status
+  168  git remote add origin https://github.com/thismehmood/JavaC.git
+  169  git push -u origin master
+  170  cd
+  171  e:
+  172  cd e:
+  173  cd waqar
+  174  cd Java\ Code/
+  175  ls
+  176  git status
+  177  git add Student*
+  178  git status
+  179  git commit -m "getter setter used for handling data" Student.*
+  180  git remote -v
+  181  git remote rm origin origin2
+  182  git remote rm origin
+  183  git remote rm origin2
+  184  git remote -v
+  185  history

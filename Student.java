@@ -27,7 +27,7 @@ public static int getCountStudents(){
 }
 // Default Constructor
 public Student() {
- name = “not set”;
+ name = "not set";
  rollNo = 100;
 countStudents += 1;
 }
@@ -49,10 +49,10 @@ System.out.print("Student name: " +name);
  System.out.println(", roll no: " +rollNo); }
 // overriding toString method of java.lang.Object class
 public String toString(){
-return “name: ” + name + “ RollNo: ” + rollNo;
+return "name: " + name + " RollNo: " + rollNo;
 }
 // overriding finalize method of Object class
 public void finalize(){
 countStudents -= 1; 
 }
-} // end of class 
+} // end of class 	

@@ -10,7 +10,7 @@ this.name = name;
 public Employee(){
 // calling parameterized constructor of same (Employee)
  // class by using keyword this
-this (10, “not set”);
+this (10, "not set");
 }
 //setters
 public void setId (int id) {
@@ -28,12 +28,12 @@ public String getName (){
 }
 // displaying employee object on console
 public void display(){
-System.out.println(“in employee display method”);
+System.out.println("in employee display method");
 System.out.println("Employee id:" + id + " name:" + name);
 }
 //overriding object’s class toString method
 public String toString() {
-System.out.println(“in employee toString method”);
+System.out.println("in employee toString method");
 return "id:" + id + "name:" + name;
 }
 }//end class 
