@@ -25,6 +25,8 @@ System.out.println("hashmap size: " + size);
 // retrieving student object against rollno two and
 // performing downcasting
 Student s = (Student) h.get("two");
+Student p =(Student) h.get("three");
+Student z = (Student) h.get("one");
 // calling student’s class print method
 s.print();
 } // end main
